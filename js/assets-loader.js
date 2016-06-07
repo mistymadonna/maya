@@ -1,0 +1,3 @@
+(function() {(function(a){function e(b){-1!==b.indexOf(".js")?document.write("<script "+f+'type="text/javascript" src="'+b+'">\x3c/script>'):document.write('<link rel="stylesheet" type="text/css" href="'+b+'" />')}var g=function(){var b=window.location.search,a=b.indexOf("exclude=");return-1<a&&(b=b.substr(a+8).split("&")[0])?b.split(","):[]}(),f;f=window.__beta_flag_should_defer?'defer="defer" ':"";try{if(window.top!=window&&window.top.Squarespace&&window.top.Squarespace.frameAvailable){window.top.Squarespace.frameAvailable(window,
+SQUARESPACE_ROLLUPS);return}}catch(h){console.error(h)}for(var c in a)if(!(-1<g.indexOf(c))){if(a[c].js)for(var d=0;d<a[c].js.length;d++)e(a[c].js[d]);if(a[c].css)for(d=0;d<a[c].css.length;d++)e(a[c].css[d])}})(SQUARESPACE_ROLLUPS);
+})();
